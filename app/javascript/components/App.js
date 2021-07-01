@@ -1,10 +1,13 @@
 import React from 'react';
-// import {Form} from '/reusable/Form';
+import Form from './reusable/Form/Form';
 
 function App() {
     const text = "React App is here!"
     return (
-        <div>{text}</div>
+        <>
+            <div>{text}</div>
+            <Form />
+        </>
     )
 }
 

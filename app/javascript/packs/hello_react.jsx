@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     // <Hello name="React" />,
     <App/>,
+    // <Form/>,
     // react_component("NavMenu", props: {}, prerender: false),
     document.body.appendChild(document.createElement('div')),
   )
