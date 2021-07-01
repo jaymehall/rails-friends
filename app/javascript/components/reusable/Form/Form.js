@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-function Form() {
+function Form({buttonText}) {
     return (
         <>
             <div>I'm a react Form component.</div>
             <Button variant="primary" type="submit">
-                Submit
+                {buttonText}
             </Button>
         </>
         // <Form>
