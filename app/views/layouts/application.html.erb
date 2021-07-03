@@ -23,7 +23,12 @@
     <%= render 'home/header' %>
 
     <div class="container">
-      </br>
+      <br/>
+
+      <% if notice %>
+        <%= render 'layouts/alerts'%>
+      <% end %>
+      
       <%= yield %>
       <%# <%= react_component("Form", {formText: 'We will never share your information with anyone'}, prerender: false) %>
     </div>
