@@ -1,7 +1,7 @@
 # React-Ruby-on-Rails Friends App
 
 ## Description
-This application is designed to explore and illustrate the possiblity of using Ruby on Rails and React front end framework together to create a fully functional basic CRUD application.
+This application is designed to explore and illustrate the possibility of using Ruby on Rails and React front end framework together to create a fully functional basic CRUD application.
 
 ## Table of Contents
   - [Installation](#installation)
