@@ -18,6 +18,9 @@ This application is designed to explore and illustrate the possibility of using 
 ## Usage
 Simply click on the deployed application link to start keeping track of your friends today!
 
+![friends home](public/friends-home.png "Friends Home")
+![friends-list](public/friends-list.png "Friends List")
+
 ## Technologies
 * React 
 * Ruby on Rails 
