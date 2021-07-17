@@ -19,9 +19,9 @@
         <td><%= friend.email %></td>
         <td><%= friend.phone %></td>
         <td><%= friend.twitter %></td>
-        <td><%= link_to 'Show', friend %></td>
-        <td><%= link_to 'Edit', edit_friend_path(friend) %></td>
-        <td><%= button_to 'Delete', friend, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', friend, class: "show" %></td>
+        <td><%= link_to 'Edit', edit_friend_path(friend), class: "edit" %></td>
+        <td class="delete"><%= button_to 'Delete', friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "delete" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -31,3 +31,21 @@
 
 <%= link_to 'New Friend', new_friend_path, class:"btn btn-secondary" %>
 
+<style>
+.show, .edit {
+  text-decoration: none
+}
+
+.show:hover, .edit:hover {
+  text-decoration: underline;
+}
+
+.delete {
+  color: red;
+  border: none;
+}
+
+.delete:hover {
+  text-decoration: underline;
+}
+</style>
