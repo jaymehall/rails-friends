@@ -1,0 +1,11 @@
+body {
+    background-image: url('./friends.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: whitesmoke;
+    margin: 50px;
+    text-align: center;
+}
