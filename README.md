@@ -13,7 +13,7 @@ This application is designed to explore and illustrate the possibility of using 
 
 
 ## Installation
-``` npm i ```
+``` bundle install ```
 
 ## Usage
 Simply click on the deployed application link and create an account to start keeping track of your friends today!
