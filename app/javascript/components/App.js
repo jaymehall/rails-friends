@@ -7,7 +7,8 @@ function App() {
     <div className="title">
       <h2>Keep Track of your Friends with Friends App</h2>
       <br />
-      <a rel="nofollow" href="/home/about"><Button className="btn btn-dark">Learn More</Button></a>
+      <a style={{marginRight: "10px"}} rel="nofollow" href="/home/about"><Button className="btn btn-dark">Learn More</Button></a>
+      <a rel="nofollow" href="/friends/new"><Button className="btn btn-dark">Get Started</Button></a>
     </div>
   );
 }
