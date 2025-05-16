@@ -44,4 +44,4 @@ Simply click on the deployed application link and create an account to start kee
 For additional questions please contact:
 * The Privacy Dev
 * Email: theprivacydev@protonmail.com
-* https://github.com/theprivacydev
+* https://github.com/jaymehall
