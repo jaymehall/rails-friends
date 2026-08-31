@@ -1,47 +1,61 @@
-# React-Ruby-on-Rails Friends App
+# React / Ruby on Rails Friends App
 
 ## Description
-This application is designed to explore and illustrate the possibility of using Ruby on Rails and React front end framework together to create a fully functional basic CRUD application.
+
+This application explores using Ruby on Rails and React together to build a fully functional, basic CRUD application.
 
 ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
-  - [License](#license)
-  - [Next Steps](#next-steps)
-  - [Questions](#questions)
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
+- [Next Steps](#next-steps)
+- [Questions](#questions)
 
 ## Installation
-``` bundle install ```
+
+```
+bundle install
+rails db:create db:migrate
+```
 
 ## Usage
-Simply click on the deployed application link and create an account to start keeping track of your friends today!
+
+Start the Rails server:
+
+```
+rails server
+```
+
+Visit `http://localhost:3000`, create an account, and start keeping track of your friends.
 
 ![friends home](public/friends-home.png "Friends Home")
-![friends-list](public/friends-list.png "Friends List")
+![friends list](public/friends-list.png "Friends List")
 
 ## Technologies
-* React 
-* Ruby on Rails 
-* Bootstrap 
-* React-Bootstrap
-* sqlite3
+
+- React
+- Ruby on Rails
+- Bootstrap
+- React-Bootstrap
+- SQLite3
 
 ## License
 
+[MIT](https://opensource.org/licenses/MIT)
 
-  [MIT](https://opensource.org/licenses/MIT)
-  
-
-  ![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
+![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
 
 ## Next Steps
-* Deployment
-* Replace pages not created with React components with React Components
+
+- Deploy the application
+- Replace remaining server-rendered pages with React components
 
 ## Questions
+
 For additional questions please contact:
-* The Privacy Dev
-* Email: theprivacydev@protonmail.com
-* https://github.com/jaymehall
+
+- Jayme Hall
+- Email: hjayme@protonmail.com
+- GitHub: [https://github.com/jaymehall](https://github.com/jaymehall)
