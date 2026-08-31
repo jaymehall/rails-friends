@@ -57,5 +57,5 @@ Visit `http://localhost:3000`, create an account, and start keeping track of you
 For additional questions please contact:
 
 - Jayme Hall
-- Email: hjayme@protonmail.com
 - GitHub: [https://github.com/jaymehall](https://github.com/jaymehall)
+- LinkedIn: [https://www.linkedin.com/in/jayme-hall/](https://www.linkedin.com/in/jayme-hall/)
