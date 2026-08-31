@@ -11,7 +11,7 @@ This application explores using Ruby on Rails and React together to build a full
 - [Technologies](#technologies)
 - [License](#license)
 - [Next Steps](#next-steps)
-- [Questions](#questions)
+- [About the Creator](#about-the-creator)
 
 ## Installation
 
@@ -52,10 +52,10 @@ Visit `http://localhost:3000`, create an account, and start keeping track of you
 - Deploy the application
 - Replace remaining server-rendered pages with React components
 
-## Questions
+## About the Creator
 
-For additional questions please contact:
+Built to explore what Ruby on Rails and React look like working together on a single app.
 
-- Jayme Hall
-- GitHub: [https://github.com/jaymehall](https://github.com/jaymehall)
-- LinkedIn: [https://www.linkedin.com/in/jayme-hall/](https://www.linkedin.com/in/jayme-hall/)
+- LinkedIn: https://www.linkedin.com/in/jayme-hall/
+- GitHub: https://github.com/jaymehall/
+- Website: [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
