@@ -32,7 +32,7 @@ flowchart LR
     VIEWS --> B
 ```
 
-`FriendsController` follows the standard Rails scaffold pattern — strong parameters gate what a request can actually set on a `Friend`:
+`FriendsController` follows the standard Rails scaffold pattern. Strong parameters gate what a request can actually set on a `Friend`:
 
 ```ruby
 # Only allow a list of trusted parameters through.
